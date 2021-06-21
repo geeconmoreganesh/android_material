@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:gravity="center"
+    tools:context=".Text_view">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:hint="@string/app_name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20sp"
+        android:width="250dp"
+        android:typeface="monospace"
+        android:allowUndo="true"
+        android:textAlignment="center"
+        android:fontFamily="@font/lexend_bold"
+        android:textStyle="bold"
+        android:onClick="text_view"
+        android:textAllCaps="true" />
+
+</LinearLayout>

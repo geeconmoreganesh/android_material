@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android_material">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Android_material">
+        <activity android:name=".RadioButton"></activity>
+        <activity android:name=".CheckBox" />
+        <activity
+            android:name=".Toggle_Button"
+            android:label="@string/title_activity_toggle__button"
+            android:theme="@style/Theme.Android_material.NoActionBar" />
+        <activity android:name=".time_picker" />
+        <activity android:name=".button" />
+        <activity android:name=".Edit_text" />
+        <activity android:name=".Text_view" />
+        <activity android:name=".Android_widget" />
+        <activity android:name=".splash_screen" />
+        <activity android:name=".animation" />
+        <activity android:name=".Dashbord" />
+        <activity android:name=".home_screen" />
+        <activity android:name=".login" />
+        <activity android:name=".api_one" />
+        <activity android:name=".multiple_array_api" />
+        <activity android:name=".Master_array" />
+        <activity android:name=".program" />
+        <activity android:name=".master_varable" />
+        <activity android:name=".looping_statement_part1" />
+        <activity android:name=".Youtube_Video" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

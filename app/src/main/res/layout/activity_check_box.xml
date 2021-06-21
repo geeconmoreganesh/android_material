@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckBox">
+
+    // Attribute Description
+
+    // android:id :It is used to uniquely identify the control
+    // android:checked : It is used to specify the current state of checkbox
+    // android:gravity: It is used to specify how to align the text like left, right, center, top,
+    etc.
+    // android:text :It is used to set the text for a checkbox.
+    // android:textColor :It is used to change the color of text.
+    // android:textSize :It is used to specify the size of text.
+    // android:textStyle :It is used to change the style (bold, italic, bolditalic) of text.
+    // android:background:It is used to set the background color for checkbox control.
+    // android:padding:It is used to set the padding from left, right, top and bottom.
+    // android:onClick:It’s the name of the method to invoke when the checkbox clicked.
+    // android:visibility:It is used to control the visibility of control.
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/chk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:text="Java" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/chkPython"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:padding="10dp"
+        android:text="Python" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/chkAndroid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:padding="10dp"
+        android:text="Android" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/chkAngular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:padding="10dp"
+        android:text="AngularJS" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Button" />
+
+
+</LinearLayout>
